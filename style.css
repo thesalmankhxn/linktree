@@ -1,0 +1,92 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url("img/geometries.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  min-height: 100vh;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+  width: 120px;
+  border-radius: 5%;
+}
+
+a.featured:hover {
+    background-color: #6d2aff;
+    border: 2px solid #ff9030;
+    color: #fff;
+}
+
+a:hover {
+  background-color: #3ce39c;
+  color: #fff;
+}
+
+a {
+  display: block;
+  max-width: 400px;
+  margin: 0 auto 15px;
+  padding: 15px 20px;
+  font-size: 0.85rem;
+  color: #fff;
+  border: 2px solid #fff;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+a.featured {
+  position: relative;
+  background-color: #7c41ff;
+  border: 2px solid #ffa04c;
+  color: #fff;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.social {
+  display: flex;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.social a {
+  flex: 1;
+  padding: 10px 10px;
+  margin-right: 10px;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+/* Last link margin = 0 */
+
+.social a:last-child {
+  margin-right: 0;
+}
+
+.codepen:hover {
+  background-color: #1e1f26;
+  border-color: #fff;
+}
+
+.facebook:hover {
+  background-color: #3b5998;
+}
